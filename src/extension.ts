@@ -217,49 +217,49 @@ class CustomSidebarViewProvider implements vscode.WebviewViewProvider {
     //Condition to check if function is called for first time or not. 
     if(!flag){
       errorFace = webview.asWebviewUri(
-        vscode.Uri.joinPath(this._extensionUri, "assets", "incredible0.png")
+        vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash0.JPEG")
         );
-      warningFace = webview.asWebviewUri(vscode.Uri.joinPath(this._extensionUri, "assets", "incredible0.png"));
+      warningFace = webview.asWebviewUri(vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash0.JPEG"));
     }
     else{
       if(errors===0){
         errorFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible0.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash0.JPEG")
           );
       }
       else if(errors<5){
         errorFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible1.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash1.JPEG")
           );
       }
       else if(errors<10){
         errorFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible2.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash2.JPEG")
           );
       }
       else{
         errorFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible3.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash3.JPEG")
           );
       }
       if(warnings===0){
         warningFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible0.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash0.JPEG")
           );
       }
       else if(warnings<5){
         warningFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible1.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash1.JPEG")
           );
       }
       else if(warnings<10){
         warningFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible2.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash2.JPEG")
           );
       }
       else{
         warningFace = webview.asWebviewUri(
-          vscode.Uri.joinPath(this._extensionUri, "assets", "incredible3.png")
+          vscode.Uri.joinPath(this._extensionUri, "assets", "Manghash3.JPEG")
           );
       }
     }
